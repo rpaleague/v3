@@ -1,0 +1,29 @@
+{
+  "name": "BT1",
+  "description": "BT1",
+  "main": "Main.xaml",
+  "dependencies": {
+    "UiPath.UIAutomation.Activities": "[18.3.6897.22543]",
+    "UiPath.System.Activities": "[18.3.6897.22524]",
+    "UiPath.Excel.Activities": "[2.4.6884.25683]",
+    "UiPath.Mail.Activities": "[1.2.6863.29868]",
+    "Google.Apis.Gmail.v1": "[1.36.1.1342]",
+    "UiPathTeam.Gmail.Activities": "[1.0.6822.33137]",
+    "SchwabenCode.EasySmtp": "[1.4.2]"
+  },
+  "schemaVersion": "3.2",
+  "studioVersion": "18.4.0.6",
+  "projectVersion": "1.0.0.0",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ]
+  },
+  "projectType": "Workflow",
+  "libraryOptions": {
+    "includeOriginalXaml": false,
+    "privateWorkflows": []
+  }
+}
